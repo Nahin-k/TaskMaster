@@ -12,9 +12,22 @@
     -fx-text-fill: white;
     -fx-background-radius: 5px;
     -fx-padding: 10;
+    -fx-height: 50px;
+    -fx-width: 100px;
+    -fx-font-size: 14px;
+    -fx-font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .button:hover{
     -fx-background-color: #504c94;
-
+    -fx-box-shadow: 0 5px 15px #555758;
 }
+
+.text-field {
+    -fx-min-height: 50px;
+    -fx-max-height: 100px;
+    -fx-font-size: 14px;
+    -fx-font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
